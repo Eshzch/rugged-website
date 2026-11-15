@@ -1,5 +1,5 @@
 import OrderForm from "@/components/OrderForm";
-import { ArrowRight, Instagram, Menu, Sparkles } from "lucide-react";
+import { ArrowRight, Sparkles } from "lucide-react";
 
 const collections = [
  {title:"Cartoon Collection",subtitle:"Character energy",mark:"✳",className:"cartoon"},
