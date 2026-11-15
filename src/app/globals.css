@@ -14,3 +14,19 @@
 @media(max-width:1020px){.collections-grid,.looks-grid{grid-template-columns:repeat(4,1fr)}.collection-intro,.looks-intro{grid-column:1/-1}.collection-intro h2 br,.looks-intro h2 br{display:none}.collection-intro h2{margin:0 0 10px}.hero-logo .brand-logo{font-size:clamp(65px,8.8vw,120px)}.hero-rework{min-height:460px}.hero-visual{min-height:460px}.hero-rug{border-width:12px}.hero-rug span{font-size:clamp(100px,22vw,230px)}}
 @media(max-width:700px){.wrap{width:min(100% - 30px,1340px)}.top-banner{font-size:9px;gap:12px}.header-inner{grid-template-columns:1fr auto;min-height:70px}.main-navigation{grid-column:1/-1;grid-row:2;justify-content:space-around;padding-bottom:15px;gap:10px}.header-cta{grid-column:2;grid-row:1;font-size:11px;padding:9px 13px}.hero-rework{grid-template-columns:1fr}.hero-text{padding:38px 25px 33px}.hero-logo .brand-logo{font-size:clamp(65px,14vw,125px)}.hero-text h1{font-size:clamp(40px,9vw,65px)}.hero-twinkle{top:28px;right:20%}.hero-visual{min-height:350px}.hero-rug{max-width:340px}.hero-rug span{font-size:180px}.collections-grid,.looks-grid{grid-template-columns:repeat(2,1fr)}.collection-intro,.looks-intro{grid-column:1/-1}.collection-intro h2,.looks-intro h2{font-size:48px}.collection-image{aspect-ratio:1.05}.rug-symbol{font-size:100px}.about-section{grid-template-columns:1fr}.about-copy{padding:44px 26px}.about-copy h2{font-size:70px}.about-visual{min-height:310px}.about-visual:before{display:none}.quote-inner{grid-template-columns:1fr;gap:15px}.quote-section{padding:35px 0}.quote-intro h2{font-size:58px}.quote-doodle{display:none}.footer-top{grid-template-columns:1fr;gap:18px}.footer-brand,.footer-news{min-height:0;border-right:0;border-bottom:1px solid #a36565;padding-bottom:22px}.footer-bottom{flex-direction:column;gap:7px}.look-card{aspect-ratio:1}}
 @media(max-width:440px){.hero-visual{min-height:285px}.hero-rug{width:65%;}.hero-rug span{font-size:135px}.brand-logo.small{font-size:42px}.hero-logo .brand-logo{font-size:68px}.collection-card h3{font-size:12px}.collection-caption{line-height:1.5}.collection-image{border-radius:11px}.rug-symbol{font-size:70px}.form-grid{grid-template-columns:1fr}.quote-card{padding:22px}.quote-intro h2{font-size:50px}.footer-nav{gap:13px}}
+
+/* Esh's uploaded logo: transparent vectorized artwork */
+.logo-image{display:block;width:min(100%,470px);height:auto;object-fit:contain}
+.logo-image.logo-small{width:195px}
+.header-brand{display:inline-flex;align-items:center}
+.hero-logo .logo-image{width:min(100%,620px);max-width:none}
+.footer-brand .logo-image{width:205px}
+@media(max-width:700px){
+ .logo-image.logo-small{width:145px}
+ .hero-logo .logo-image{width:min(100%,440px)}
+ .footer-brand .logo-image{width:170px}
+}
+@media(max-width:440px){
+ .logo-image.logo-small{width:130px}
+ .hero-logo .logo-image{width:min(100%,390px)}
+}
