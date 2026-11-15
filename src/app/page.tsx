@@ -14,7 +14,7 @@ const looks=[
  {label:"Bold shapes",mark:"✳",className:"look-leaf"}
 ];
 function Logo({small=false}:{small?:boolean}) {
- return <span className={small?"brand-logo small":"brand-logo"} aria-label="Rugged">Rugged</span>;
+ return <img src="/rugged-logo.svg" alt="Rugged" width={2048} height={705} className={small?"logo-image logo-small":"logo-image"} />;
 }
 export default function Home(){return <main>
  <div className="top-banner"><span aria-hidden="true">✦</span> FREE SHIPPING ON ORDERS ABOVE ₹999 <span aria-hidden="true">✦</span></div>
